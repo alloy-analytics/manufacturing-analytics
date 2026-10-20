@@ -1,8 +1,8 @@
 # Manufacturing Analytics Portfolio
 
-Portfolio of manufacturing analytics dashboards — production (refinery & milling analytics), FFB supply chain & quality, and tank volumetric analytics. Built at Presco Plc to replace manual, paper-based reporting with live, server-connected dashboards used daily by production management, executives, floor supervisors, QC, and logistics.
+Portfolio of manufacturing analytics dashboards — production (refinery & milling analytics), FFB supply chain & quality, tank volumetric analytics, and utility analytics. Built at Presco Plc to replace manual, paper-based reporting with live, server-connected dashboards used daily by production management, executives, floor supervisors, QC, and logistics.
 
-**Author:** Alloy (Divine) — Manufacturing & Business Analytics Professional
+**Author:** Divine C. Alloyshius — Manufacturing & Business Analytics Professional
 **LinkedIn:** _add your LinkedIn URL here_
 
 ## Case Studies
@@ -13,12 +13,13 @@ Portfolio of manufacturing analytics dashboards — production (refinery & milli
 | 2 | [Mill Production Dashboard](case-studies/02-milling-production.md) | Production analytics, extraction efficiency | Surfaced a real FFB intake-vs-processed backlog |
 | 3 | [FFB Supply Chain & Quality Dashboard](case-studies/03-ffb-supply-chain.md) | Supply chain & quality control | Caught an Over Ripe rate running ~9x the quality standard |
 | 4 | [Tankfarm Stock Volume Dashboard](case-studies/04-tankfarm-volumetric.md) | Inventory / volumetric analytics | Turned raw tank numbers into a live overflow/stockout view |
+| 5 | [Utility Dashboard](case-studies/05-utility-dashboard.md) 🚧 *in build* | Utility & energy analytics, downtime & availability | Power, steam, water & diesel per ton FFB on one page; built the section's first downtime tracker |
 
-Each case study follows the same structure: business problem → solution → data & tools → results & business impact → skills demonstrated, with the live dashboard screenshot included.
+Each case study follows the same structure: business problem → solution → data & tools → results & business impact → skills demonstrated, with the live dashboard screenshot included. The Utility Dashboard is being documented as it is built — see its [build log](case-studies/05-utility-dashboard-build-log.md).
 
 ## Tools & Skills
 
-`Microsoft Excel` (live server connections) · `Production KPI design` · `Supply chain & quality analytics` · `Inventory/volumetric analytics` · `Dashboard design` · `Executive reporting`
+`Microsoft Excel` (live server connections, Excel 2019 automation without VBA) · `Production KPI design` · `Supply chain & quality analytics` · `Inventory/volumetric analytics` · `Utility & energy analytics` · `Downtime & availability analysis` · `Dashboard design` · `Executive reporting`
 
 ## About
 
