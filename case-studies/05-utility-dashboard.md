@@ -1,9 +1,10 @@
-# Utility Dashboard — Palm Oil Mill (Build in Progress)
+# Utility Dashboard — Palm Oil Mill
 
-**Author:** Divine C. Alloyshius, Manufacturing & Business Analyst · Presco Plc
+**Author:** Divine C. Alloyshius, Manufacturing Analyst · Presco Plc
+**Contact:** divine.alloyshius@siat-group.com · +234 814 760 3384
 **Category:** Utility Analytics · Energy & Resource Efficiency · Downtime & Availability
 **Tools:** Microsoft Excel 2019 (no VBA, no add-ins), company production server
-**Status:** 🚧 In build. Layout, engine and reports complete; live data linking in progress.
+**Status:** Live. Linked to the daily utilities entry file, with equipment downtime fed from the Factory Downtime Report. Sent to management for review in November 2026.
 
 ![Utility Dashboard](../screenshots/05-utility-dashboard.png)
 
@@ -54,21 +55,25 @@ Design choices:
 - **Fair comparisons.** If the current month has 12 days of data, it is compared against the first 12 days of last month, not the full month.
 - **Company colours.** Forest green, ivory and grey taken from Presco's colour code. Red is used only for "worse than target", so problems stand out.
 
-## Companion tool: Utility Downtime Tracker
+## Downtime: from a separate tracker to the factory-wide log
 
-While building this, I found the utility section had **no file for recording equipment downtime**. I built one:
+While building this, I found the utility section had **no record of equipment downtime**. I first built a standalone Utility Downtime Tracker. Once the factory-wide [Factory Downtime Report](07-factory-downtime-report.md) was in place, the tracker was retired and the utility downtime columns were linked to its Utility log instead, so stoppages are entered once and used everywhere.
 
-- **Daily log:** date, shift, section, equipment (dropdown that depends on the section), cause, reason, start/end time (duration calculated), action taken, reported by.
-- **Reports:** weekly, monthly and quarterly downtime by section, equipment and cause; planned vs unplanned; availability %.
-- **Year overview:** every week, month and quarter on one sheet.
+| Dashboard column | Comes from (Factory Downtime, Utility log) |
+|---|---|
+| Boiler downtime | Hours when **both** boilers (Atmindo and Vickers) were down at the same time, max 24 h a day |
+| Turbine downtime | Power Generation, Steam Turbine |
+| Generator downtime | Power Generation, Diesel Generators 1 to 3 |
+| Water Plant downtime | Water Treatment station |
+| CWS downtime | Cooling Water station |
 
-It feeds the availability and downtime sections of this dashboard.
+**Why the boiler rule matters:** with two boilers, one boiler down while the other runs does not stop steam supply. Simply adding both boilers' hours would overstate downtime and could show more than 24 hours in a day. The overlap rule counts only the time both were down.
 
 ## Data quality findings so far
 
 Building the dashboard exposed gaps in the source data. That is part of the value:
 - Days where FFB was processed but steam generated was recorded as 0
-- Downtime columns not yet being filled, so availability shows 100%
+- Downtime columns were empty, so availability always showed 100%. Now fed from the Factory Downtime Report.
 - No fields yet for fibre/shell fed to the boilers, which are needed to calculate boiler efficiency
 
 ## Roadmap
@@ -77,13 +82,14 @@ Building the dashboard exposed gaps in the source data. That is part of the valu
 - [x] Source table structure and calculation engine
 - [x] Dashboard layout, 8 KPIs, 10 charts, summary table
 - [x] Weekly / Monthly / Quarterly report
-- [x] Downtime Tracker for the utility section
 - [x] Presco colour palette
-- [ ] Link live utility data from the production server
+- [x] Linked to the daily utilities entry file
+- [x] Downtime linked to the Factory Downtime Report (with the boiler overlap rule)
+- [x] Fits any screen size without macros; dashboard sheets protected
+- [x] Sent to management for review (Nov 2026)
 - [ ] Validate figures against source records
 - [ ] Official targets from management
-- [ ] Boiler and turbine efficiency (new data fields)
-- [ ] Hand-over and review with the Utility supervisor
+- [ ] Boiler efficiency (needs fibre and shell fed to the boiler)
 
 See [the build log](05-utility-dashboard-build-log.md) for the day-by-day log.
 
