@@ -4,7 +4,7 @@
 **Contact:** divine.alloyshius@siat-group.com · +234 814 760 3384
 **Category:** Utility Analytics · Energy & Resource Efficiency · Downtime & Availability
 **Tools:** Microsoft Excel 2019 (no VBA, no add-ins), company production server
-**Status:** Live. Linked to the daily utilities entry file, with equipment downtime fed from the Factory Downtime Report. Sent to management for review in November 2026.
+**Status:** Live. Linked to the daily utilities entry file, with equipment downtime fed from the Factory Downtime Report. In daily use; presented to management for feedback in November 2026.
 
 ![Utility Dashboard](../screenshots/05-utility-dashboard.png)
 
@@ -86,7 +86,7 @@ Building the dashboard exposed gaps in the source data. That is part of the valu
 - [x] Linked to the daily utilities entry file
 - [x] Downtime linked to the Factory Downtime Report (with the boiler overlap rule)
 - [x] Fits any screen size without macros; dashboard sheets protected
-- [x] Sent to management for review (Nov 2026)
+- [x] In daily use; presented to management for feedback (Nov 2026)
 - [ ] Validate figures against source records
 - [ ] Official targets from management
 - [ ] Boiler efficiency (needs fibre and shell fed to the boiler)

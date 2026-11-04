@@ -2,7 +2,7 @@
 
 **Author:** Divine C. Alloyshius, Manufacturing Analyst · Presco Plc
 **Contact:** divine.alloyshius@siat-group.com · +234 814 760 3384
-**Status:** Phase 1 (Utility, Maintenance, Factory Downtime) sent to management for review, November 2026.
+**Status:** Phase 1 (Utility, Maintenance, Factory Downtime) in daily use; presented to management for feedback, November 2026.
 
 ![The three projects and the problems they solve](../screenshots/08-system-three-projects.png)
 
@@ -45,7 +45,7 @@ Daily utilities entry ──► Utility Dashboard + Weekly / Monthly / Quarterly
 
 ## Presenting it to management
 
-In November 2026 I sent a 15-slide presentation and the files to management for review before rolling out to the wider team. The deck covers the goal, the three projects, what the factory gains, where the data stands, why putting data to use matters, the role of a Manufacturing Analyst, the planned summary report, shared ownership, what comes next and what still needs to be in place.
+In November 2026 I sent a 15-slide presentation and the files to management for their feedback on any changes needed. The deck covers the goal, the three projects, what the factory gains, where the data stands, why putting data to use matters, the role of a Manufacturing Analyst, the planned summary report, shared ownership, what comes next and what still needs to be in place.
 
 Lessons from preparing it:
 
@@ -59,7 +59,7 @@ Lessons from preparing it:
 - **Updated Mill Performance Dashboard:** everything that happens across the mill.
 - **Updated Refinery Performance Dashboard:** the refinery plus Fractionation, Tankfarm and Packaging.
 - **Team communication:** suggested Slack workspace so supervisors, technical officers and assistant managers can share files and updates in one place.
-- **Training** for technical officers, supervisors and section managers once management approves.
+- **Training** for technical officers, supervisors and section managers.
 
 ## Still to be in place
 

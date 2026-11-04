@@ -4,7 +4,7 @@
 **Contact:** divine.alloyshius@siat-group.com · +234 814 760 3384
 **Category:** Downtime & Availability Analytics · Operations Reporting
 **Tools:** Microsoft Excel 2019 (no VBA, no add-ins)
-**Status:** Built and sent to management for review (Nov 2026). Live logging starts after approval.
+**Status:** In daily use. Presented to management for feedback in November 2026.
 
 ## Overview
 
@@ -85,9 +85,9 @@ Before this report, stoppages were not recorded in one place, so nobody could sa
 - [x] Linked to maintenance job numbers and to the Utility Dashboard
 - [x] Boiler overlap rule
 - [x] Formula protection
-- [x] Sent to management for review (Nov 2026)
+- [x] In daily use; presented to management for feedback (Nov 2026)
 - [ ] Decide whether Packaging needs its own downtime log
-- [ ] Train department users and start live logging
+- [ ] Train all department users
 - [ ] Feed the planned Factory Summary Report
 
 ## Skills demonstrated

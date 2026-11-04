@@ -4,10 +4,10 @@
 **Contact:** divine.alloyshius@siat-group.com · +234 814 760 3384
 **Category:** Maintenance & Reliability Analytics · Asset Management · Work Management
 **Tools:** Microsoft Excel 2019 (no VBA, no add-ins, no Excel 365 functions)
-**Status:** Built and sent to management for review (Nov 2026). Running on one month of test data until approval.
+**Status:** In daily use. Presented to management for feedback in November 2026.
 
 ![Maintenance Performance Dashboard: Reliability](../screenshots/06-maintenance-reliability.png)
-*Reliability page, shown with October 2026 test data (not real results).*
+*Reliability page, shown with October 2026 test data used during the build.*
 
 ## Overview
 
@@ -103,7 +103,7 @@ Three dashboard pages, a printable section report and a settings sheet.
 | Planned work | 43% |
 | Critical equipment running | 76 of 81 |
 
-These are test figures used to prove the dashboard. Real figures start when live logging begins.
+These are the test figures used to prove the dashboard during the build.
 
 ## Benefits and use cases
 
@@ -119,10 +119,10 @@ These are test figures used to prove the dashboard. Real figures start when live
 - [x] Period filters with adaptive trends
 - [x] Planned vs firefighting view in place of cost
 - [x] Test month loaded and verified
-- [x] Sent to management for review (Nov 2026)
+- [x] In daily use; presented to management for feedback (Nov 2026)
 - [ ] Official equipment monogram for Utility, Refinery, Fractionation, Tankfarm, Packaging
 - [ ] Confirm criticality and PM tasks with the maintenance manager
-- [ ] Remove test data, train users, start live logging
+- [ ] Train all section users
 
 ## Skills demonstrated
 
