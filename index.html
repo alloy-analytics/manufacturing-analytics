@@ -64,6 +64,7 @@ section{padding:80px 0}
 .skills{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .skill{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px}
 .skill h3{font-size:18px;margin-bottom:12px}
+.skill p.ex{color:var(--soft);font-size:15.5px}
 .skill ul{padding-left:18px;color:var(--soft);font-size:15.5px}
 .skill li{margin-bottom:6px}
 .how{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:8px}
@@ -97,21 +98,21 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
 
 <nav><div class="wrap">
   <a class="name" href="#top">Divine C. Alloyshius</a>
-  <div class="links"><a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div>
+  <div class="links"><a href="#about">About</a><a href="#value">How I add value</a><a href="#findings">Problems I spotted</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div>
 </div></nav>
 
 <header id="top"><div class="wrap">
   <div class="eyebrow">Manufacturing Analyst</div>
-  <h1>I turn factory data into decisions people can act on.</h1>
-  <p class="lead">Manufacturing Analyst at Presco Plc, a palm oil producer and refiner. I build the dashboards, logs and reports that show production, maintenance, utility and supply chain performance across the whole factory.</p>
+  <h1>I help factories find what’s slowing them down, and fix it.</h1>
+  <p class="lead">Manufacturing Analyst at Presco Plc, a palm oil producer and refiner. I work alongside managers, supervisors and technicians to understand how each section runs, find where time, output and money are being lost, and put the systems and habits in place to fix it.</p>
   <div class="cta">
     <a class="btn primary" href="#work">See my work</a>
     <a class="btn ghost" href="https://github.com/alloy-analytics/manufacturing-analytics">GitHub case studies</a>
   </div>
   <div class="stats">
-    <div class="stat"><b>7</b><span>dashboards and tools in daily use</span></div>
-    <div class="stat"><b>8</b><span>factory sections covered</span></div>
-    <div class="stat"><b>0 macros</b><span>runs on the Excel already in use</span></div>
+    <div class="stat"><b>8</b><span>factory sections I work across</span></div>
+    <div class="stat"><b>7</b><span>solutions in daily use</span></div>
+    <div class="stat"><b>6 to 9x</b><span>over-ripe fruit rate flagged above standard</span></div>
     <div class="stat"><b>Hours to seconds</b><span>for weekly and monthly reports</span></div>
   </div>
 </div></header>
@@ -119,10 +120,10 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
 <section id="about"><div class="wrap about">
   <div>
     <div class="eyebrow">About</div>
-    <h2>From production reporting to factory-wide analytics</h2>
+    <h2>From production reporting to solving factory problems</h2>
     <p>I joined Presco’s production team in October 2024, in charge of production reporting. I quickly saw that the factory produces a lot of data every day, but much of it was not recorded properly or put to use.</p>
-    <p>With a one-year diploma in Data Analysis from AltSchool Africa behind me, I started building the tools to change that: live production dashboards for the mill and refinery, supply chain and stock views, and now a factory-wide system for utilities, maintenance and downtime.</p>
-    <p>I work closely with managers, supervisors, technical officers and the maintenance team, so everything I build is designed to be used on the factory floor, not just presented.</p>
+    <p>My diploma in Data Analysis from AltSchool Africa gave me the tools. Working on the factory floor taught me the business: how fruit becomes oil, why a stoppage in one section affects the next, and what managers actually need to decide.</p>
+    <p>So I start with the problem, not the tool. I listen to the people who run each section, find the gap, design the fix with them, test it, and train them to use it.</p>
   </div>
   <div class="goal">
     <div class="eyebrow">The goal behind my work</div>
@@ -131,10 +132,35 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
   </div>
 </div></section>
 
-<section id="work" class="featured"><div class="wrap">
+<section id="value" class="featured"><div class="wrap">
+  <div class="eyebrow">How I add value</div>
+  <h2>More than dashboards</h2>
+  <p class="intro">A dashboard is only useful if it solves a real problem and people use it. These are the things I bring, with examples from my work.</p>
+  <div class="skills">
+    <div class="skill"><h3>I learn the business</h3><p class="ex">Two boilers supply the same steam, so one boiler down is not a steam outage. I built a rule that counts only the hours both were down, so utility losses are not overstated.</p></div>
+    <div class="skill"><h3>I solve the real problem</h3><p class="ex">The utility section had no record of equipment downtime at all. Before building any chart, I created the log to capture it, and linked it so each stoppage is entered once and used everywhere.</p></div>
+    <div class="skill"><h3>I find a way when data is missing</h3><p class="ex">Cost and budget data were not available, so I gave managers a measure they could act on instead: planned maintenance work versus firefighting, by section.</p></div>
+    <div class="skill"><h3>I work with people</h3><p class="ex">Built the equipment register with the maintenance department, agreed downtime categories with each department, and presented the full system to management for their feedback.</p></div>
+    <div class="skill"><h3>I train and make it stick</h3><p class="ex">I have trained staff on production reporting, and I design tools for the person entering the data: colour-coded cells, dropdowns and checks that say what is missing. Technical officers, supervisors and managers are trained to use them.</p></div>
+    <div class="skill"><h3>I check my work</h3><p class="ex">Every figure is tested against an independent calculation before release. Test data is labelled as test data. Every project is documented step by step on GitHub.</p></div>
+  </div>
+</div></section>
+
+<section id="findings"><div class="wrap">
+  <div class="eyebrow">Problems I spotted</div>
+  <h2>I notice what others miss, and raise it</h2>
+  <p class="intro">Numbers on their own change nothing. My job is to read them with the business in mind, spot what is costing the factory, and bring it to the people who can act. Three examples from the mill and the fruit supply chain:</p>
+  <div class="skills">
+    <div class="skill"><h3>Fruit was waiting too long</h3><p class="ex"><b>13,874 MT</b> of fruit received against <b>11,803 MT</b> processed in one week, about 2,000 MT left waiting, while daily throughput ranged from 62% to 85%.</p><p class="ex" style="margin-top:10px"><b>Why it matters to the business:</b> fruit that waits loses quality, and the throughput gap shows room to process more of what is already on site.</p></div>
+    <div class="skill"><h3>Fruit quality was slipping</h3><p class="ex">The over-ripe rate ran <b>6 to 9 times</b> the 5% quality standard on the days reviewed.</p><p class="ex" style="margin-top:10px"><b>Why it matters to the business:</b> over-ripe fruit raises free fatty acid and lowers oil quality. Seeing it per estate, per day lets the team act at the source, in harvesting.</p></div>
+    <div class="skill"><h3>Supply depended on two estates</h3><p class="ex">Two estates supplied <b>over 60%</b> of daily fruit.</p><p class="ex" style="margin-top:10px"><b>Why it matters to the business:</b> a problem at either estate hits the mill hard. Knowing the dependence helps plan supply and spread the risk.</p></div>
+  </div>
+</div></section>
+
+<section id="work"><div class="wrap">
   <div class="eyebrow">Featured work</div>
   <h2>Factory Data and Reporting System</h2>
-  <p class="intro">Three connected projects, delivered to management in November 2026, that give every section of the factory one way to record utility use, maintenance work and downtime.</p>
+  <p class="intro">Three connected solutions, now in daily use, that give every section of the factory one way to record utility use, maintenance work and downtime, and give management one view of where the factory loses time and output.</p>
 
   <div class="feature">
     <div class="shot"><img src="screenshots/06-maintenance-reliability.png" alt="Maintenance Performance Dashboard, Reliability page"><small>Reliability page, shown with test data.</small></div>
@@ -143,8 +169,8 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
       <h3>Maintenance Logs and Performance Dashboard</h3>
       <dl class="pd">
         <dt>Problem</dt><dd>Job cards existed, but not every job was logged or followed through, so no one could say which machines failed most or how much work was planned versus firefighting.</dd>
-        <dt>What I built</dt><dd>Seven section maintenance logs and one master equipment list feeding a three-page dashboard: reliability (MTBF, MTTR, availability), work and PM compliance, and equipment health.</dd>
-        <dt>Value</dt><dd>Shows where breakdowns come from, which critical machines need attention first, and whether preventive maintenance is working.</dd>
+        <dt>What I did</dt><dd>Worked with the maintenance department to register every machine individually, then built seven section logs and one master equipment list feeding a three-page dashboard: reliability (MTBF, MTTR, availability), work and PM compliance, and equipment health.</dd>
+        <dt>Business impact</dt><dd>Shows where breakdowns come from, which critical machines need attention first, and whether preventive maintenance is working.</dd>
       </dl>
       <a class="more" href="https://github.com/alloy-analytics/manufacturing-analytics/blob/main/case-studies/06-maintenance-system.md">Read the case study</a>
     </div>
@@ -157,8 +183,8 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
       <h3>Utility Dashboard</h3>
       <dl class="pd">
         <dt>Problem</dt><dd>Power, steam, water and diesel figures sat as raw numbers in separate files, with no efficiency ratios and no record of equipment downtime.</dd>
-        <dt>What I built</dt><dd>One page with 8 KPIs, 10 trend charts, a performance summary against targets and a weekly, monthly and quarterly report, with downtime fed from the factory downtime log.</dd>
-        <dt>Value</dt><dd>Utility use per ton of FFB is tracked daily, so waste and rising costs show up early.</dd>
+        <dt>What I did</dt><dd>Worked with the utility team to bring their separate records together into one page with 8 KPIs, 10 trend charts, a performance summary against targets and a weekly, monthly and quarterly report, with downtime fed from the factory downtime log.</dd>
+        <dt>Business impact</dt><dd>Utility use per ton of FFB is tracked daily, so waste and rising costs show up early.</dd>
       </dl>
       <a class="more" href="https://github.com/alloy-analytics/manufacturing-analytics/blob/main/case-studies/05-utility-dashboard.md">Read the case study</a>
     </div>
@@ -171,15 +197,15 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
       <h3>Factory Downtime Report</h3>
       <dl class="pd">
         <dt>Problem</dt><dd>Stoppages were not recorded in one place, so no one could say how many hours each department lost, or why.</dd>
-        <dt>What I built</dt><dd>One log per department, eight reason groups shared across the factory, a management summary and a department report, linked to maintenance job numbers and to the utility dashboard.</dd>
-        <dt>Value</dt><dd>Hours lost, main causes and trend for every department, with no manual compiling.</dd>
+        <dt>What I did</dt><dd>Agreed downtime categories with each department, then built one log per department, eight reason groups shared across the factory, a management summary and a department report, linked to maintenance job numbers and to the utility dashboard.</dd>
+        <dt>Business impact</dt><dd>Hours lost, main causes and trend for every department, with no manual compiling.</dd>
       </dl>
       <a class="more" href="https://github.com/alloy-analytics/manufacturing-analytics/blob/main/case-studies/07-factory-downtime-report.md">Read the case study</a>
     </div>
   </div>
 </div></section>
 
-<section><div class="wrap">
+<section class="featured"><div class="wrap">
   <div class="eyebrow">Production dashboards</div>
   <h2>Live dashboards in daily use</h2>
   <p class="intro">Connected directly to the production server and used every day by management, executives, supervisors, QC and logistics.</p>
@@ -207,11 +233,12 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
   </div>
 </div></section>
 
-<section id="skills" class="featured"><div class="wrap">
+<section id="skills"><div class="wrap">
   <div class="eyebrow">Skills</div>
   <h2>What I bring</h2>
   <div class="skills" style="margin-top:28px">
-    <div class="skill"><h3>Manufacturing analytics</h3><ul>
+    <div class="skill"><h3>Business and operations</h3><ul>
+      <li>Palm oil process from fresh fruit to refined oil</li>
       <li>Production KPIs: throughput, yield, OER, PKOER, FFA</li>
       <li>Maintenance KPIs: MTBF, MTTR, availability, PM compliance</li>
       <li>Downtime and availability analysis</li>
@@ -225,17 +252,17 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
       <li>Documentation and version control on GitHub</li>
       <li>Also trained in Power BI, SQL, Looker Studio and basic Python</li></ul></div>
     <div class="skill"><h3>Working with people</h3><ul>
+      <li>Working with maintenance, utility, QC, production and logistics teams</li>
       <li>Gathering requirements from managers and the shop floor</li>
-      <li>Plain-language reporting for executives</li>
-      <li>Presenting to management</li>
-      <li>Training users on new tools</li>
-      <li>Driving better data habits across sections</li></ul></div>
+      <li>Plain-language reporting and presenting to management</li>
+      <li>Training users and driving better data habits</li>
+      <li>Reliable follow-through and clear documentation</li></ul></div>
   </div>
   <h3 style="margin-top:56px;font-size:22px">How I work</h3>
   <div class="how">
-    <div class="step"><b>1. Find the gap</b><p>Ask what decision people struggle to make, and what data is missing.</p></div>
+    <div class="step"><b>1. Understand the problem</b><p>Spend time with the people who run the section. Ask what decision they struggle to make, and why.</p></div>
     <div class="step"><b>2. Structure the data</b><p>One clean way to record it, with checks that catch mistakes at entry.</p></div>
-    <div class="step"><b>3. Build the view</b><p>Dashboards and reports that answer the question at a glance.</p></div>
+    <div class="step"><b>3. Build the solution</b><p>Reports and dashboards that answer the question at a glance, built with the users, not just for them.</p></div>
     <div class="step"><b>4. Make it stick</b><p>Test with real users, train them, and keep improving.</p></div>
   </div>
 </div></section>
@@ -245,10 +272,11 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
   <h2>Experience and education</h2>
   <div class="timeline" style="margin-top:32px">
     <div class="item"><div class="when">Oct 2024 to present</div><h3>Manufacturing Analyst (Production), Presco Plc</h3><ul>
-      <li>In charge of production reporting across the factory.</li>
-      <li>Built four live production, supply chain and stock dashboards now used daily by management and the shop floor.</li>
-      <li>Designed and delivered a factory-wide data system for utilities, maintenance and downtime across eight sections.</li>
-      <li>Cut weekly and monthly report preparation from hours to seconds.</li></ul></div>
+      <li>Own production reporting across the factory, turning daily records into reports management uses for decisions.</li>
+      <li>Built four live dashboards used daily by management, supervisors, QC and logistics, cutting weekly and monthly report preparation from hours to seconds.</li>
+      <li>Flagged an over-ripe fruit rate running 6 to 9 times the quality standard, a weekly backlog of about 2,000 MT between fruit received and processed, and a dependence on two estates for over 60% of supply.</li>
+      <li>Led a factory-wide data system for utilities, maintenance and downtime across eight sections, working with the maintenance department, section managers and supervisors, and presented it to management.</li>
+      <li>Trained staff on production reporting, and train technical officers, supervisors and section managers to use the tools.</li></ul></div>
     <div class="item"><div class="when">Education</div><h3>Diploma in Data Analysis, AltSchool Africa</h3><ul>
       <li>One-year programme covering data cleaning, analysis and visualisation.</li>
       <li>Tools: Excel, Power BI, SQL, Looker Studio and basic Python.</li></ul></div>
@@ -259,7 +287,7 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
 
 <section id="contact" class="contact"><div class="wrap">
   <h2>Get in touch</h2>
-  <p>Happy to talk about manufacturing analytics, factory reporting, or turning shop-floor data into decisions.</p>
+  <p>If your operation has data that is not being used, or problems nobody can quite measure yet, I’d be glad to talk.</p>
   <div class="cta">
     <a class="btn primary" href="mailto:divine.alloyshius@siat-group.com">Email me</a>
     <a class="btn ghost" href="https://github.com/alloy-analytics">GitHub</a>
