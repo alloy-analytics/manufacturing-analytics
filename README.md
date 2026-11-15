@@ -3,7 +3,7 @@
 Portfolio of manufacturing analytics work built at Presco Plc: production dashboards (refinery and milling), FFB supply chain and quality, tank volumetric analytics, utility analytics, and a factory-wide data system for maintenance and downtime. The goal behind all of it: **no data in the factory should go unrecorded or unused.**
 
 **Author:** Divine C. Alloyshius — Manufacturing Analytics Professional
-**Email:** divine.alloyshius@siat-group.com
+**Email:** alloychimezie@gmail.com
 **Phone:** +234 814 760 3384
 **LinkedIn:** _add your LinkedIn URL here_
 
@@ -28,4 +28,4 @@ Each case study follows the same structure: business problem → solution → ch
 
 ## About
 
-I'm a Manufacturing Analyst working across production, supply chain, quality, and financial analytics, with a goal of becoming a leading Manufacturing Analytics Professional. This repo documents real dashboards I've built and shipped, backfilled as case studies, with new work logged as it's built. Follow along on LinkedIn for weekly write-ups.
+I'm a Data Analyst in manufacturing, working across production, supply chain, quality, and financial analytics, with a goal of becoming a leading Manufacturing Analytics Professional. This repo documents real dashboards I've built and shipped, backfilled as case studies, with new work logged as it's built. Follow along on LinkedIn for weekly write-ups.

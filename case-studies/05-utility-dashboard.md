@@ -1,7 +1,7 @@
 # Utility Dashboard — Palm Oil Mill
 
-**Author:** Divine C. Alloyshius, Manufacturing Analyst · Presco Plc
-**Contact:** divine.alloyshius@siat-group.com · +234 814 760 3384
+**Author:** Divine C. Alloyshius
+**Contact:** alloychimezie@gmail.com · +234 814 760 3384
 **Category:** Utility Analytics · Energy & Resource Efficiency · Downtime & Availability
 **Tools:** Microsoft Excel 2019 (no VBA, no add-ins), company production server
 **Status:** Live. Linked to the daily utilities entry file, with equipment downtime fed from the Factory Downtime Report. In daily use; presented to management for feedback in November 2026.

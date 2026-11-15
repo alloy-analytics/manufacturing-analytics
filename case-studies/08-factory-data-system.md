@@ -1,7 +1,7 @@
 # Factory Data and Reporting System (Overview)
 
-**Author:** Divine C. Alloyshius, Manufacturing Analyst · Presco Plc
-**Contact:** divine.alloyshius@siat-group.com · +234 814 760 3384
+**Author:** Divine C. Alloyshius
+**Contact:** alloychimezie@gmail.com · +234 814 760 3384
 **Status:** Phase 1 (Utility, Maintenance, Factory Downtime) in daily use; presented to management for feedback, November 2026.
 
 ![The three projects and the problems they solve](../screenshots/08-system-three-projects.png)

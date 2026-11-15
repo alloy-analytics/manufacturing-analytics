@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Divine C. Alloyshius | Manufacturing Analyst</title>
+<title>Divine C. Alloyshius | Manufacturing Data Analyst</title>
 <meta name="description" content="Manufacturing analytics portfolio: production, maintenance, downtime, utility and supply chain dashboards built for a palm oil manufacturer.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Public+Sans:wght@400;500;600;700&display=swap">
@@ -61,7 +61,7 @@ section{padding:80px 0}
 .card h3{font-size:20px;margin:8px 0 8px}
 .card p{color:var(--soft);font-size:15.5px;flex:1}
 .card .result{font-size:14.5px;color:var(--ink);background:var(--ivory);border-radius:8px;padding:10px 12px;margin:14px 0}
-.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.skills.four{grid-template-columns:repeat(2,1fr)}
 .skill{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px}
 .skill h3{font-size:18px;margin-bottom:12px}
 .skill p.ex{color:var(--soft);font-size:15.5px}
@@ -88,7 +88,7 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
   .stats{grid-template-columns:repeat(2,1fr)}
   .about,.feature,.feature.rev{grid-template-columns:1fr;gap:28px}
   .feature.rev .shot{order:0}
-  .grid,.skills{grid-template-columns:1fr}
+  .grid,.skills{grid-template-columns:1fr}.skills.four{grid-template-columns:1fr}
   .how{grid-template-columns:repeat(2,1fr)}
   nav .links{display:none}
 }
@@ -102,9 +102,9 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
 </div></nav>
 
 <header id="top"><div class="wrap">
-  <div class="eyebrow">Manufacturing Analyst</div>
+  <div class="eyebrow">Manufacturing Data Analyst</div>
   <h1>I help factories find what’s slowing them down, and fix it.</h1>
-  <p class="lead">Manufacturing Analyst at Presco Plc, a palm oil producer and refiner. I work alongside managers, supervisors and technicians to understand how each section runs, find where time, output and money are being lost, and put the systems and habits in place to fix it.</p>
+  <p class="lead">Data Analyst (Production) at Presco Plc, a palm oil producer and refiner. I work alongside managers, supervisors and technicians to understand how each section runs, find where time, output and money are being lost, and put the systems and habits in place to fix it.</p>
   <div class="cta">
     <a class="btn primary" href="#work">See my work</a>
     <a class="btn ghost" href="https://github.com/alloy-analytics/manufacturing-analytics">GitHub case studies</a>
@@ -149,11 +149,12 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
 <section id="findings"><div class="wrap">
   <div class="eyebrow">Problems I spotted</div>
   <h2>I notice what others miss, and raise it</h2>
-  <p class="intro">Numbers on their own change nothing. My job is to read them with the business in mind, spot what is costing the factory, and bring it to the people who can act. Three examples from the mill and the fruit supply chain:</p>
-  <div class="skills">
+  <p class="intro">Numbers on their own change nothing. My job is to read them with the business in mind, spot what is costing the factory, and bring it to the people who can act. Four examples from the mill, the fruit supply chain and maintenance:</p>
+  <div class="skills four">
     <div class="skill"><h3>Fruit was waiting too long</h3><p class="ex"><b>13,874 MT</b> of fruit received against <b>11,803 MT</b> processed in one week, about 2,000 MT left waiting, while daily throughput ranged from 62% to 85%.</p><p class="ex" style="margin-top:10px"><b>Why it matters to the business:</b> fruit that waits loses quality, and the throughput gap shows room to process more of what is already on site.</p></div>
     <div class="skill"><h3>Fruit quality was slipping</h3><p class="ex">The over-ripe rate ran <b>6 to 9 times</b> the 5% quality standard on the days reviewed.</p><p class="ex" style="margin-top:10px"><b>Why it matters to the business:</b> over-ripe fruit raises free fatty acid and lowers oil quality. Seeing it per estate, per day lets the team act at the source, in harvesting.</p></div>
     <div class="skill"><h3>Supply depended on two estates</h3><p class="ex">Two estates supplied <b>over 60%</b> of daily fruit.</p><p class="ex" style="margin-top:10px"><b>Why it matters to the business:</b> a problem at either estate hits the mill hard. Knowing the dependence helps plan supply and spread the risk.</p></div>
+    <div class="skill"><h3>Technician hours were counted twice</h3><p class="ex">Overlapping job cards made some technicians look like they worked <b>16 to 20 hours</b> in a day, on 10 and 11-hour shifts.</p><p class="ex" style="margin-top:10px"><b>Why it matters to the business:</b> wrong numbers get argued about, not used. I set counting rules per shift with the maintenance team, and the highest day dropped to <b>11 h</b>, matching what really happened on site.</p></div>
   </div>
 </div></section>
 
@@ -201,6 +202,20 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
         <dt>Business impact</dt><dd>Hours lost, main causes and trend for every department, with no manual compiling.</dd>
       </dl>
       <a class="more" href="https://github.com/alloy-analytics/manufacturing-analytics/blob/main/case-studies/07-factory-downtime-report.md">Read the case study</a>
+    </div>
+  </div>
+
+  <div class="feature rev">
+    <div class="shot"><img src="screenshots/09-wrench-time-month-table.png" alt="Wrench time month view, technician names anonymised"><small>Month view with real data, names anonymised.</small></div>
+    <div>
+      <span class="tag">Maintenance & workforce</span>
+      <h3>Wrench Time Tracking</h3>
+      <dl class="pd">
+        <dt>Problem</dt><dd>No way to see how much of a technician's shift was actually spent on jobs without compiling job cards by hand.</dd>
+        <dt>What I did</dt><dd>Added month and technician views to the maintenance dashboard, fed live from the seven section logs, with hours counted per shift and overlapping job cards counted once.</dd>
+        <dt>Business impact</dt><dd>Managers see hours on the tools per technician per day, and the questions move to what fills the time between jobs.</dd>
+      </dl>
+      <a class="more" href="https://github.com/alloy-analytics/manufacturing-analytics/blob/main/case-studies/09-wrench-time.md">Read the case study</a>
     </div>
   </div>
 </div></section>
@@ -271,7 +286,7 @@ footer{background:var(--green-dk);color:var(--mint);font-size:14px;text-align:ce
   <div class="eyebrow">Experience</div>
   <h2>Experience and education</h2>
   <div class="timeline" style="margin-top:32px">
-    <div class="item"><div class="when">Oct 2024 to present</div><h3>Manufacturing Analyst (Production), Presco Plc</h3><ul>
+    <div class="item"><div class="when">Oct 2024 to present</div><h3>Data Analyst (Production), Presco Plc</h3><ul>
       <li>Own production reporting across the factory, turning daily records into reports management uses for decisions.</li>
       <li>Built four live dashboards used daily by management, supervisors, QC and logistics, cutting weekly and monthly report preparation from hours to seconds.</li>
       <li>Flagged an over-ripe fruit rate running 6 to 9 times the quality standard, a weekly backlog of about 2,000 MT between fruit received and processed, and a dependence on two estates for over 60% of supply.</li>

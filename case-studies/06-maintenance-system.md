@@ -1,7 +1,7 @@
 # Maintenance Logs and Maintenance Performance Dashboard
 
-**Author:** Divine C. Alloyshius, Manufacturing Analyst · Presco Plc
-**Contact:** divine.alloyshius@siat-group.com · +234 814 760 3384
+**Author:** Divine C. Alloyshius
+**Contact:** alloychimezie@gmail.com · +234 814 760 3384
 **Category:** Maintenance & Reliability Analytics · Asset Management · Work Management
 **Tools:** Microsoft Excel 2019 (no VBA, no add-ins, no Excel 365 functions)
 **Status:** In daily use. Presented to management for feedback in November 2026.
