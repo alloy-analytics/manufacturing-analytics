@@ -7,6 +7,8 @@ Portfolio of manufacturing analytics work built at Presco Plc: production dashbo
 **Phone:** +234 814 760 3384
 **LinkedIn:** _add your LinkedIn URL here_
 
+© 2026 Divine C. Alloyshius. Please credit when sharing.
+
 ## Case Studies
 
 | # | Project | Focus | Headline Result |
@@ -29,3 +31,7 @@ Each case study follows the same structure: business problem → solution → ch
 ## About
 
 I'm a Data Analyst in manufacturing, working across production, supply chain, quality, and financial analytics, with a goal of becoming a leading Manufacturing Analytics Professional. This repo documents real dashboards I've built and shipped, backfilled as case studies, with new work logged as it's built. Follow along on LinkedIn for weekly write-ups.
+
+## License
+
+This portfolio is licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). You may share and adapt it for non-commercial purposes, as long as you credit Divine C. Alloyshius and link to this licence. See [LICENSE](LICENSE) for the full terms.
