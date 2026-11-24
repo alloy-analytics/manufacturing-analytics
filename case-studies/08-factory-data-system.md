@@ -2,7 +2,7 @@
 
 **Author:** Divine C. Alloyshius
 **Contact:** alloychimezie@gmail.com · +234 814 760 3384
-**Status:** Phase 1 (Utility, Maintenance, Factory Downtime) in daily use; presented to management for feedback, November 2026.
+**Status:** Utility, Maintenance, Factory Downtime and Mill & KCP dashboards in daily use. Presented to management as *Think on Data* on 21 November 2026.
 
 ![The three projects and the problems they solve](../screenshots/08-system-three-projects.png)
 
@@ -23,8 +23,10 @@ Master Lists (equipment, technicians, causes)
         │              ▲ job number
         └──► Factory Downtime Report (5 departments)
                        │ utility downtime (boiler overlap rule)
+                       │ mill and KCP stoppage hours
                        ▼
 Daily utilities entry ──► Utility Dashboard + Weekly / Monthly / Quarterly report
+Mill production file  ──► Mill & KCP Performance Dashboard + Weekly / Monthly report
 ```
 
 | Project | Case study |
@@ -32,6 +34,8 @@ Daily utilities entry ──► Utility Dashboard + Weekly / Monthly / Quarterly
 | Utility Dashboard | [05-utility-dashboard.md](05-utility-dashboard.md) |
 | Maintenance Logs and Dashboard | [06-maintenance-system.md](06-maintenance-system.md) |
 | Factory Downtime Report | [07-factory-downtime-report.md](07-factory-downtime-report.md) |
+| Wrench Time Tracking | [09-wrench-time.md](09-wrench-time.md) |
+| Mill & KCP Performance Dashboard | [10-mill-kcp-dashboard.md](10-mill-kcp-dashboard.md) |
 
 ## What the factory gains
 
@@ -53,17 +57,32 @@ Lessons from preparing it:
 - **Be honest about status.** Test data is labelled as test data. Equipment lists still being completed are shown as "in progress", not "done".
 - **Plain words win.** Every slide was rewritten until a busy manager could read it at a glance.
 
+### Think on Data: the management session (21 November 2026)
+
+I then presented the system in person to management, including the mill and utility managers, under one idea: **Think on Data, optimising our efficiency through data.** The aim was to move the factory from being operations-inclined ("did we run today?") to data-inclined ("how well did we run, what did it cost, and what do we fix first?").
+
+The session covered what is live, what the data had already found, why the tools are easy to adopt, and four proposals: a daily, weekly and monthly factory summary report, a review every two weeks with key players from every section, agreed targets with an owner for each section, and training.
+
+What worked:
+
+- **Value first, never blame.** Every finding was framed as something we can now see and work on, not as anyone's failure.
+- **Number, meaning, action.** Each finding was presented as the figure, what it means, and what we can do about it.
+- **Built on what already exists.** No new software, nothing extra to fill in: the tools read the records the teams already keep.
+
+The session led to ABS (ERP) access being requested for the key players, and to the next step of connecting the dashboards to the ABS server.
+
 ## Coming next
 
-- **Factory Summary Report** (in progress): one daily, weekly and monthly email covering every section: what was achieved, work done, challenges, and KPIs against targets, with a named owner for each KPI. The aim is shared ownership, so results are not the line manager's responsibility alone.
-- **Updated Mill Performance Dashboard:** everything that happens across the mill.
-- **Updated Refinery Performance Dashboard:** the refinery plus Fractionation, Tankfarm and Packaging.
-- **Team communication:** suggested Slack workspace so supervisors, technical officers and assistant managers can share files and updates in one place.
-- **Training** for technical officers, supervisors and section managers.
+- **Refinery Performance Dashboard** (in progress): the refinery to the same standard as the mill dashboard.
+- **Tankfarm Stock Dashboard** (in progress): stock by tank across mill and refinery products.
+- **Factory Summary Report** (in progress): one daily, weekly and monthly report covering every section, with KPIs against targets and a named owner for each KPI. The aim is shared ownership, so results are not the line manager's responsibility alone.
+- **One data source:** working with the ABS team to connect the dashboards to the ABS server (SQL Server), so every report reads from the same live data.
+- **Training** for the responsible persons in each section.
+- **Review every two weeks** with key players from every section: achievements, challenges, actions with owners and dates, and follow-up.
 
 ## Still to be in place
 
-- Equipment monogram for Utility, Refinery, Fractionation, Tankfarm and Packaging (in progress with the maintenance department)
-- Official targets for maintenance KPIs
-- Confirmed machine criticality and PM tasks
+- Equipment lists for the remaining sections (in progress with the maintenance department)
+- Electrical and instrumentation work recorded in the job cards
+- Official targets agreed with each section manager
 - Fibre and shell fed to the boiler, for boiler efficiency

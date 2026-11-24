@@ -20,7 +20,9 @@ Portfolio of manufacturing analytics work built at Presco Plc: production dashbo
 | 5 | [Utility Dashboard](case-studies/05-utility-dashboard.md) | Utility & energy analytics, availability | Power, steam, water & diesel per ton FFB on one page; downtime linked from the factory log |
 | 6 | [Maintenance Logs & Performance Dashboard](case-studies/06-maintenance-system.md) | Maintenance & reliability analytics | 7 section logs + 1 master list feeding MTBF, MTTR, availability, PM compliance and planned-vs-firefighting views |
 | 7 | [Factory Downtime Report](case-studies/07-factory-downtime-report.md) | Downtime & availability, operations reporting | Every stoppage in 5 departments, grouped into 8 shared reasons, with a boiler overlap rule feeding the utility dashboard |
-| 8 | [Factory Data & Reporting System (overview)](case-studies/08-factory-data-system.md) | Factory-wide data strategy | Projects 5 to 7 in daily use and presented to management, Nov 2026; summary report and shared-ownership plan next |
+| 8 | [Factory Data & Reporting System (overview)](case-studies/08-factory-data-system.md) | Factory-wide data strategy | Utility, maintenance, downtime and Mill & KCP in daily use; presented to management as *Think on Data*, Nov 2026 |
+| 9 | [Wrench Time Tracking](case-studies/09-wrench-time.md) | Maintenance & workforce analytics | Technician hours on the tools per day, with overlapping job cards counted once |
+| 10 | [Mill & KCP Performance Dashboard](case-studies/10-mill-kcp-dashboard.md) | Production analytics, extraction efficiency, budget tracking | OER gap turned into tonnes of CPO; throughput, run time and budget pace on one page |
 
 Each case study follows the same structure: business problem → solution → challenges and how they were solved → results → benefits and use cases → skills demonstrated. The Utility Dashboard also has a day-by-day [build log](case-studies/05-utility-dashboard-build-log.md).
 
