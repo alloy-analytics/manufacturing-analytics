@@ -1,5 +1,7 @@
 # Refinery Production Dashboard
 
+> **Updated version available:** [Refinery, Fractionation & Packaging Performance Dashboard](11-refinery-fractionation-packaging.md) (case study 11) records much more: fractionation in full, quality trends, packaging, stoppages and a weekly and monthly report.
+
 **Company:** Presco Plc
 **Category:** Production Analytics · Real-Time Monitoring & Reporting
 **Tools:** Microsoft Excel (live-connected), company production server

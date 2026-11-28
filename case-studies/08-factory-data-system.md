@@ -73,7 +73,7 @@ The session led to ABS (ERP) access being requested for the key players, and to 
 
 ## Coming next
 
-- **Refinery Performance Dashboard** (in progress): the refinery to the same standard as the mill dashboard.
+- **Refinery, Fractionation & Packaging Dashboard** (built, ready for live data): the refinery to the same standard as the mill dashboard. See [case study 11](11-refinery-fractionation-packaging.md).
 - **Tankfarm Stock Dashboard** (in progress): stock by tank across mill and refinery products.
 - **Factory Summary Report** (in progress): one daily, weekly and monthly report covering every section, with KPIs against targets and a named owner for each KPI. The aim is shared ownership, so results are not the line manager's responsibility alone.
 - **One data source:** working with the ABS team to connect the dashboards to the ABS server (SQL Server), so every report reads from the same live data.
