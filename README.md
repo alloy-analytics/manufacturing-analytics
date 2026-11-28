@@ -24,6 +24,7 @@ Portfolio of manufacturing analytics work built at Presco Plc: production dashbo
 | 9 | [Wrench Time Tracking](case-studies/09-wrench-time.md) | Maintenance & workforce analytics | Technician hours on the tools per day, with overlapping job cards counted once |
 | 10 | [Mill & KCP Performance Dashboard](case-studies/10-mill-kcp-dashboard.md) | Production analytics, extraction efficiency, budget tracking | OER gap turned into tonnes of CPO; throughput, run time and budget pace on one page |
 | 11 | [Refinery, Fractionation & Packaging Dashboard](case-studies/11-refinery-fractionation-packaging.md) | Production analytics, yield, quality, packaging (updated version of #1) | Yield gap shown as tonnes of RBDPO; oil followed from CPO to finished packs on two pages |
+| 12 | [Tankfarm Stock & Daily Movements Dashboard](case-studies/12-tankfarm-stock-movements.md) | Inventory analytics, stock accounting (updated version of #4) | Space for key products, sellable stock and days of refinery feed, with every movement logged |
 
 Each case study follows the same structure: business problem → solution → challenges and how they were solved → results → benefits and use cases → skills demonstrated. The Utility Dashboard also has a day-by-day [build log](case-studies/05-utility-dashboard-build-log.md).
 

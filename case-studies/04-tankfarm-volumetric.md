@@ -1,5 +1,7 @@
 # Tankfarm Stock Volume Dashboard
 
+> **Updated version available:** [Tankfarm Stock & Daily Movements Dashboard](12-tankfarm-stock-movements.md) (case study 12) accounts for every movement as well as the stock: space for key products, sellable stock, days of refinery feed, tank product changes and a daily transaction log.
+
 **Company:** Presco Plc
 **Category:** Inventory / Volumetric Analytics · Real-Time Monitoring
 **Tools:** Microsoft Excel (live-connected), company production server
